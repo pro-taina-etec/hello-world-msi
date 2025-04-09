@@ -1,0 +1,24 @@
+name: Atualizar Badges
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  atualizar-badges:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v3
+
+      - name: Calcular progresso de Sprints
+        run: |
+          TOTAL=6
+          CONCLUIDOS=$(grep -r "✔" sprints/ | wc -l || echo 0)
+          echo "SPRINT_PROGRESS=$(($CONCLUIDOS * 100 / $TOTAL))" >> $GITHUB_ENV
+          echo "Progresso de sprint: $SPRINT_PROGRESS%"
+
+      - name: Gerar Badge de Progresso (exemplo simbólico)
+        run: |
+          echo "Você pode usar a API do shields.io ou integração externa para gerar badges visuais"
