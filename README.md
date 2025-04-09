@@ -81,10 +81,10 @@ Ser referência na formação de técnicos de informática que se destacam no me
 
 ## 👥 Equipe
 
-| Nome         | GitHub            | Papel no Projeto                    |
-|--------------|-------------------|-------------------------------------|
-| Tai Oliveira | @tainaoliveira    | Líder Técnica e Facilitadora        |
-| [Nome]       | @[GitHub]         | [Função Ex: Aluno, Dev, Documentação] |
-| [Nome]       | @[GitHub]         | [Função]                            |
+| Nome          | GitHub            | Papel no Projeto                    |
+|---------------|-------------------|-------------------------------------|
+| Tainá Oliveira| @pro-taina-etec | Líder Técnica e Facilitadora        |
+| [Nome]        | @[GitHub]         | [Função Ex: Aluno, Dev, Documentação] |
+| [Nome]        | @[GitHub]         | [Função]                            |
 
 > **Nota:** Este projeto faz parte de um processo formativo voltado ao desenvolvimento técnico e comportamental dos alunos do curso de Manutenção e Suporte de Informática. A aplicação prática, simulação de contextos reais e trabalho colaborativo são os pilares deste aprendizado.
